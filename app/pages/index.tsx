@@ -6,6 +6,7 @@ const Home: NextPage = () => {
   return(
     <>
       <Head>
+        <link rel="icon" type="image/png" href="./image/icon/icon.png" /> 
         <title>Roboaeste | AI Art Gallery</title> 
       </Head>
       <header className={styles.header}> 
