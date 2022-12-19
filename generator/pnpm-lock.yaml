@@ -1,10 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
+  dotenv: ^16.0.3
   nodemon: ^2.0.20
   openai: ^3.1.0
 
 dependencies:
+  dotenv: 16.0.3
   openai: 3.1.0
 
 devDependencies:
@@ -100,6 +102,11 @@ packages:
   /delayed-stream/1.0.0:
     resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
     engines: {node: '>=0.4.0'}
+    dev: false
+
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
     dev: false
 
   /fill-range/7.0.1:

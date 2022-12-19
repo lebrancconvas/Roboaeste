@@ -1,9 +1,12 @@
 import { Configuration, OpenAIApi } from 'openai';
 import { writeFileSync } from 'fs'; 
+import * as dotenv from 'dotenv'; 
+
+dotenv.config(); 
 
 export const generate = async() => {
 	const config = new Configuration({
-		apiKey: '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',  
+		apiKey: process.env.API_KEY,   
 	});
 	
 	const openai = new OpenAIApi(config); 
