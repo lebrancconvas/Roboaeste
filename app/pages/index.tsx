@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head'; 
 import styles from '../styles/Home.module.css'; 
+import Navbar from '../components/Navbar'; 
 
 const Home: NextPage = () => {
   return(
@@ -10,11 +11,8 @@ const Home: NextPage = () => {
         <title>Roboaeste | AI Art Gallery</title> 
       </Head>
       <header className={styles.header}> 
-        <div>
-          <h1>Roboaeste</h1>  
-        </div>
-        <div>
-          <h2>Art Gallery for AI Generated Art</h2> 
+        <div id="navbar">
+          <Navbar /> 
         </div>
       </header>
       <section id="art-feed">
