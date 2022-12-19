@@ -6,4 +6,5 @@ generate()
 	})
 	.catch((err) => {
 		console.error(err); 
+		console.log(`[ERROR] Cannot Generate Image.`); 
 	})
