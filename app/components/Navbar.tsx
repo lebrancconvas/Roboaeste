@@ -8,7 +8,11 @@ const Navbar: NextPage = () => {
 		<>
 			<nav className={styles.nav}> 
 				<div className={styles.navbarContainer}>
-					<div className={styles.logo}>Roboaeste</div>
+					<div className={styles.logo}>
+						<a href="#">
+							Roboaeste 
+						</a>
+					</div>
 					<div className={styles.menu}>
 						<a href="#">For You</a>
 						<a href="#">Explore</a>
